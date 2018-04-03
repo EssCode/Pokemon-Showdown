@@ -26,7 +26,7 @@ let Formats = [
 	{
 		name: '[Gen 7] BL Ubers',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Mega Rayquaza Clause'],
-		banlist: ['Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fairy', 'Arceus-Fighting', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Ground', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Baton Pass', 'Blazikenite', 'Blue Orb', 'Deoxys-Attack', 'Gengarite', 'Ho-Oh', 'Kyogre', 'Lucarionite', 'Lunala', 'Marshadow', 'Mewtwo', 'Mewtwonite Y', 'Naganadel', 'Necrozma-Dusk-Mane', 'Power Construct', 'Rayquaza', 'Red Orb', 'Salamencite', 'Shadow Tag', 'Ultranecrozium Z', 'Unreleased', 'Xerneas', 'Yveltal', 'Illegal', 'Lugia'],
+		banlist: ['BLUb', 'Uber', 'Shadow Tag', 'Power Construct'],
 		onValidateSet: function (set, format) {
 			const template = this.getTemplate(set);
 			if (template.species === 'Arceus') {
